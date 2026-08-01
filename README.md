@@ -20,4 +20,3 @@ npm install
 npm run dev
 ```
 
-ثم افتح `http://localhost:5173/adasa-photography-blog/`
