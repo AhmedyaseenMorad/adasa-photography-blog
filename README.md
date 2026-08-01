@@ -1,16 +1,23 @@
-# React + Vite
+# عدسة - مدونة التصوير الفوتوغرافي
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+مدونة عربية للتصوير الفوتوغرافي مبنية بـ React + Vite.
 
-Currently, two official plugins are available:
+## الديمو المباشر
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://ahmedyaseenmorad.github.io/adasa-photography-blog/
 
-## React Compiler
+## المميزات
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- الصفحة الرئيسية مع أحدث المقالات والأقسام
+- صفحة المدونة مع بحث وفلاترة حسب القسم وترقيم صفحات
+- وضع ليلي / نهاري (Dark mode)
+- تصميم متجاوب مع الهاتف والكمبيوتر
 
-## Expanding the Oxlint configuration
+## التشغيل محليًا
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+npm run dev
+```
+
+ثم افتح `http://localhost:5173/adasa-photography-blog/`
